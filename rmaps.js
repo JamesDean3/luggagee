@@ -15,6 +15,6 @@ function rmapsload(){
     }
     var el = document.createElement('div'),
         b = document.getElementsByTagName('body')[1];
-        el.innerHTML = '<p id="openRmapsWindow" onclick="openRmapsURL();">lets do this</p><br><p id="sendTorMaps" onclick="sendMessageToRmaps();">then this</p>';
+        el.innerHTML = "<p id='openRmapsWindow'>lets do this</p><br><p id='sendTorMaps'>then this</p>";
     b.appendChild(el);
 }
