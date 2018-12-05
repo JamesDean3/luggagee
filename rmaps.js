@@ -18,3 +18,4 @@ function rmapsload(){
         el.innerHTML = '<p id="openRmapsWindow" onclick="openRmapsURL();">lets do this</p><br><p id="sendTorMaps" onclick="sendMessageToRmaps();">then this</p>';
     b.appendChild(el);
 }
+rmapsload();
